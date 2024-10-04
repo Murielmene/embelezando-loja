@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleVendas.css">
+</head>
+<body>
+    <header>
+        <center>
+            <h1>Bem-vindo a <em> FRUTEIRA DO MENE</em>!</h1>
+        </center>
+    </header>
+
+    <nav>
+        <center>
+            <ul>
+                
+                <li><a href="index.html">Página Inicial</a></li>
+                <li><a href="ctrl-estoque.html">Controle de Estoque</a></li>
+                <li><a href="add-produto.html">Adicionar Produto</a></li>
+                <li><a href="funcionarios.html">Funcionários</a></li>
+                <li><a href="vendas.html">Vendas</a></li>
+                <li><a href="históricoVenda.html">Histórico de Venda</a></li>
+            </ul>
+        </center>
+
+    </nav>
+
+    <center>    <h2>Página de Venda</h2>   </center>
+
+    <form action="*">
+    
+    <label for="Produto Vendido"> Descreva o produto que escolheste: </label>
+
+    <select name="Venda" id="">
+        <option value="tomate">Tomate</option>
+        <option value="cebola">Cebola</option>
+        <option value="alface">Alface</option>
+        <option value="berinjela">Berinjela</option>
+        <option value="pepino">pepino</option>
+    </select>
+<br>
+<br>
+    <label for="Método de Pagamento">Qual será o tipo de pagamento:</label>
+
+    <select name="pagamento" id="">
+        <option value="Pix">Pix</option>
+        <option value="Cartão">Cartão crédito ou débito</option>
+        <option value="Dinheiro">Dinheiro</option>
+        <option value="Cheque">Cheque</option>
+    </select>
+<br>
+<br>
+    <label for="Frete">Escolha uma opção para receber o produto em mãos:</label>
+
+    <select name="Frete" id="">
+        <option value="Retirar na Loja">Retirar na Loja</option>
+        <option value="Frete para região">Frete até 10km da Fruteira</option>
+        <option value="Frete mais longe">Frete distâncias longas</option>
+    </select>
+<br>
+<br>
+    <label for="Horário para entrega">Que hora é melhor para você receber seu produto?</label>
+
+    <select name="Horário" id="">
+        <option value="Manhã">Receber de manhã</option>
+        <option value="Tarde">Receber à tarde</option>
+        <option value="Noite">Receber à noite</option>
+        <option value="Retirarei na loja">Retirarei fisicamente na loja</option>
+    </select>
+<br>
+<br>
+    <button type="submit">Encerrar compra
+        <a href="históricoVenda.html">.</a>
+    </button>
+    <div>
+        <img src="./imagem_loja/agradecimento.jpg" alt="agradecimento da loja">
+
+    </div>
+    </form>
+
+</body>
+</html>
